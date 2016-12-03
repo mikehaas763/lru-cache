@@ -14,10 +14,5 @@
     "tape": "^4.6.3",
     "ts-node": "^1.7.0",
     "typescript": "^2.0.10"
-  },
-  "ava": {
-    "require": [
-      "ts-node/register"
-    ]
   }
 }
