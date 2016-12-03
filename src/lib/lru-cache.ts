@@ -1,7 +1,3 @@
-interface LruCacheOptions {
-    maxItems: number;
-}
-
 export class LruCache<TKey, TValue> {
     private cacheItems = new Map<TKey, TValue>();
 
