@@ -13,6 +13,8 @@ export class LruCache<TKey, TValue> {
         return this;
     }
 
+    // todo add a private addAll that can accept an array of items
+
     public get(key: TKey) {
         return this.cacheItems.get(key) || null;
     }
